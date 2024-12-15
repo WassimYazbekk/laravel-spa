@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app-content {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#app-content.loading {
+    opacity: 0.5;
+}
